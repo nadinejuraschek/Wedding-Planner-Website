@@ -1,7 +1,29 @@
 .story {
     &__pictures {
-        background-color: $color-primary;
+        background-image: linear-gradient(rgba($color-primary, 0.5), rgba($color-primary, 0.5)), url(../img/back.jpg);
         grid-column: full-start / col-end 4;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        align-items: center;
+
+        padding: 0;
+    }
+
+    &__img--1 {
+        box-shadow: 0 2rem 5rem #00000010;
+        grid-column: 2 / 6;
+        grid-row: 2 / 6;
+        width: 100%;
+    }
+
+    &__img--2 {
+        box-shadow: 0 2rem 5rem #00000020;
+        grid-column: 4 / 7;
+        grid-row: 4 / 6;
+        width: 115%;
+        z-index: 20;
     }
 
     &__content {
