@@ -279,4 +279,32 @@ body {
 
 .footer {
   background-color: #101d2c;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  padding: 8rem; }
+
+.nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center; }
+  .nav__link:link, .nav__link:visited {
+    color: #ffffff;
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s; }
+  .nav__link:hover, .nav__link:active {
+    background-color: #ffffff05;
+    transform: translatey(-3px); }
+
+.copyright {
+  color: #aaa;
+  font-size: 1.4rem;
+  margin: 6rem auto 0;
+  text-align: center;
+  width: 70%; }
