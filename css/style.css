@@ -27,6 +27,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
+.heading-1 {
+  color: #f9f7f6;
+  font-size: 4.5rem;
+  line-height: 1; }
+
 .heading-2 {
   font-size: 4rem;
   font-style: italic;
@@ -100,7 +105,42 @@ body {
 
 .header {
   background-color: #54483A;
-  grid-column: full-start / col-end 6; }
+  grid-column: full-start / col-end 6;
+  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 4rem 8rem 8rem;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-row-gap: 1.5rem;
+  justify-content: center; }
+  .header__logo {
+    height: 3rem;
+    justify-self: center; }
+  .header__btn {
+    align-self: start;
+    justify-self: start; }
+  .header__seenon-text {
+    color: #aaa;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+    font-size: 1.6rem;
+    align-items: center; }
+    .header__seenon-text::before, .header__seenon-text::after {
+      background-color: currentColor;
+      content: "";
+      display: block;
+      height: 1px; }
+  .header__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    justify-items: center; }
+    .header__seenon-logos img {
+      height: 2.5rem;
+      filter: brigthness(70%); }
 
 .realtors {
   background-color: #101d2c;
