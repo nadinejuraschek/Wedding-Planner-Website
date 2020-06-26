@@ -5,17 +5,26 @@
 
     display: flex;
     justify-content: center;
+    padding: 0;
+
+    @media only screen and (max-width: $bp-desktop) {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+
+        align-items: center;
+        justify-content: flex-end;
+    }
 }
 
 .nav-btn {
+    background-color: #ffffff;
     border: none;
     border-radius: 0;
-
-    background-color: #ffffff;
+    margin-top: 4rem;
     height: 2px;
     width: 4.5rem;
 
-    &::before, 
+    &::before,
         &::after {
             background-color: #ffffff;
             height: 2px;
@@ -30,5 +39,17 @@
     }
     &::after {
         transform: translateY(1.3rem);
+    }
+
+    @media only screen and (max-width: $bp-desktop) {
+        margin-top: 0;
+        margin-right: 3rem;
+
+        &::before {
+            transform: translateY(-1.2rem);
+        }
+        &::after {
+            transform: translateY(1rem);
+        }
     }
 }

@@ -1,6 +1,7 @@
 .story {
     &__pictures {
         background-image: linear-gradient(rgba($color-primary, 0.5), rgba($color-primary, 0.5)), url(../img/back.jpg);
+        background-size: cover;
         grid-column: full-start / col-end 4;
 
         display: grid;
@@ -9,6 +10,11 @@
         align-items: center;
 
         padding: 0;
+
+        @media only screen and (max-width: $bp-tablet) {
+            grid-column: 1 / -1;
+            padding: 6rem;
+        }
     }
 
     &__img--1 {
@@ -16,6 +22,14 @@
         grid-column: 2 / 6;
         grid-row: 2 / 6;
         width: 100%;
+
+        @media only screen and (max-width: $bp-tablet) {
+            grid-column: 1 / 5;
+            grid-row: 1 / -1;
+
+            height: 100%;
+            width: 100%;
+        }
     }
 
     &__img--2 {
@@ -24,6 +38,11 @@
         grid-row: 4 / 6;
         width: 115%;
         z-index: 20;
+
+        @media only screen and (max-width: $bp-tablet) {
+            grid-row: 1 / -1;
+            width: 100%;
+        }
     }
 
     &__content {
@@ -36,6 +55,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
+        @media only screen and (max-width: $bp-tablet) {
+            grid-column: 1 / -1;
+            grid-row: 5 / 6;
+        }
     }
 
     &__text {
