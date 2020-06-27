@@ -10,9 +10,13 @@ View the full project [here](https://nadinejuraschek.github.io/wedding-planner-w
 
 ## Preview
 ### Desktop
-
+![desktop preview](./readme/desktop-full.png)
 
 ### Mobile
+![mobile preview](./readme/mobile-full.png)
+
+### Like Button
+![like button preview](./readme/like-btn.gif)
 
 ## Images
 * [unsplash](https://unsplash.com/)
