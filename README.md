@@ -11,6 +11,7 @@ View the full project [here](https://nadinejuraschek.github.io/wedding-planner-w
 ## Preview
 ### Desktop
 
+
 ### Mobile
 
 ## Images
