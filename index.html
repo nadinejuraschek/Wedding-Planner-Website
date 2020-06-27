@@ -22,33 +22,33 @@
             <div class="header__seenon-text">As Seen On</div>
             <div class="header__seenon-logos">
                 <img src="img/logo-bbc.png" alt="BBC" />
-                <img src="img/logo-forbes.png" alt="BBC" />
-                <img src="img/logo-techcrunch.png" alt="BBC" />
-                <img src="img/logo-bi.png" alt="BBC" />
+                <img src="img/logo-forbes.png" alt="Forbes" />
+                <img src="img/logo-techcrunch.png" alt="TechCrunch" />
+                <img src="img/logo-bi.png" alt="BI" />
             </div>
         </header>
 
-        <section class="realtors">
+        <section class="planners">
             <h3 class="heading-3">
                 Our Wedding Planners
             </h3>
-            <div class="realtors__list">
-                <img src="img/planner1.jpg" alt="Wedding Planner" class="realtors__img" />
-                <div class="realtors__detail">
+            <div class="planners__list">
+                <img src="img/planner1.jpg" alt="Wedding Planner" class="planners__img" />
+                <div class="planners__detail">
                     <h4 class="heading-4 heading-4--light">Elena Alvarez</h4>
-                    <p class="realtors__sold">elena@weddings.com</p>
+                    <p class="planners__email">elena@weddings.com</p>
                 </div>
 
-                <img src="img/planner2.jpg" alt="Wedding Planner" class="realtors__img" />
-                <div class="realtors__detail">
+                <img src="img/planner2.jpg" alt="Wedding Planner" class="planners__img" />
+                <div class="planners__detail">
                     <h4 class="heading-4 heading-4--light">Toby Mueller</h4>
-                    <p class="realtors__sold">toby@weddings.com</p>
+                    <p class="planners__email">toby@weddings.com</p>
                 </div>
 
-                <img src="img/planner3.jpg" alt="Wedding Planner" class="realtors__img" />
-                <div class="realtors__detail">
+                <img src="img/planner3.jpg" alt="Wedding Planner" class="planners__img" />
+                <div class="planners__detail">
                     <h4 class="heading-4 heading-4--light">Ashley Ramsey</h4>
-                    <p class="realtors__sold">ashley@weddings.com</p>
+                    <p class="planners__email">ashley@weddings.com</p>
                 </div>
             </div>
         </section>
@@ -130,218 +130,188 @@
             <p class="story__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet nisl purus in mollis nunc.
             </p>
-            <button class="btn">Contact Us</button>
+            <button class="btn story__btn">Contact Us</button>
         </div>
 
-        <section class="homes">
-            <div class="home">
-                <img src="img/venue-1.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+        <section class="venues">
+            <div class="venue">
+                <img src="img/venue-1.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--1" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--1" />
+                <h5 class="venue__name">
                     Beach & Hotel Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>Florida</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>100 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>325 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>Spring, Summer, Fall</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$1,200,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$100 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
 
-            <div class="home">
-                <img src="img/venue-2.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+            <div class="venue">
+                <img src="img/venue-2.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--2" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--2" />
+                <h5 class="venue__name">
                     Modern Hotel Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>California</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>120 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>450 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>All Seasons</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$2,750,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$80 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
 
-            <div class="home">
-                <img src="img/venue-4.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+            <div class="venue">
+                <img src="img/venue-4.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--3" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--3" />
+                <h5 class="venue__name">
                     Large Country Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>Connecticut</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>200 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>250 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>Spring, Summer, Fall</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$850,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$60 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
 
-            <div class="home">
-                <img src="img/venue-3.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+            <div class="venue">
+                <img src="img/venue-3.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--4" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--4" />
+                <h5 class="venue__name">
                     Cozy Rustic Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>Texas</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>80 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>480 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>All Seasons</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$1,950,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$30 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
 
-            <div class="home">
-                <img src="img/venue-5.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+            <div class="venue">
+                <img src="img/venue-5.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--5" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--5" />
+                <h5 class="venue__name">
                     Beach Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>Hawaii</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>180 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>4230 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>All Seasons</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$9,500,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$70 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
 
-            <div class="home">
-                <img src="img/venue-6.jpg" alt="" class="home__img" />
-                <svg class="home__like">
-                    <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-                </svg>
-                <h5 class="home__name">
+            <div class="venue">
+                <img src="img/venue-6.jpg" alt="Venue" class="venue__img" />
+                <img src="img/heart-empty.svg" alt="Like" class="venue__like" id="nolike--6" />
+                <img src="img/heart-full.svg" alt="Like" class="venue__like hide" id="like--6" />
+                <h5 class="venue__name">
                     Small Castle Venue
                 </h5>
-                <div class="home__location">
+                <div class="venue__location">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>New York</p>
                 </div>
-                <div class="home__rooms">
+                <div class="venue__guests">
                     <svg>
                         <use xlink:href="img/sprite.svg#icon-profile-male"></use>
                     </svg>
                     <p>150 Guests</p>
                 </div>
-                <div class="home__area">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-expand"></use>
-                    </svg>
-                    <p>180 m<sup>2</sup></p>
+                <div class="venue__season">
+                    <img src="img/season.svg" alt="Season" class="venue__icon" />
+                    <p>All Seasons</p>
                 </div>
-                <div class="home__price">
-                    <svg>
-                        <use xlink:href="img/sprite.svg#icon-key"></use>
-                    </svg>
-                    <p>$600,000</p>
+                <div class="venue__price">
+                    <img src="img/price.svg" alt="Price" class="venue__icon" />
+                    <p>$90 000</p>
                 </div>
-                <button class="btn home__btn">See Availability</button>
+                <button class="btn venue__btn">See Availability</button>
             </div>
         </section>
 
@@ -393,27 +363,29 @@
         <footer class="footer">
             <ul class="nav">
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Find Your Dream Home</a>
+                    <a href="#" class="nav__link">Browse Past Events</a>
                 </li>
                 <li class="nav__item">
                     <a href="#" class="nav__link">Request Proposal</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Download Home Planner</a>
+                    <a href="#" class="nav__link">Download Wedding Checklist</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Get to Know Our Partners</a>
                 </li>
                 <li class="nav__item">
                     <a href="#" class="nav__link">Contact Us</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">List Your Property</a>
                 </li>
                 <li class="nav__item">
                     <a href="#" class="nav__link">Come Work With Us</a>
                 </li>
             </ul>
             <p class="copyright">
-                &copy; 2020 Nadine Juraschek
+                &copy; <span id="currentyear"></span> Nadine Juraschek
             </p>
         </footer>
+
+        <script src="./js/main.js"></script>
     </body>
 </html>

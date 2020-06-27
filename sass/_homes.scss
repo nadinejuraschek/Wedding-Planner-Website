@@ -1,4 +1,4 @@
-.homes {
+.venues {
     grid-column: center-start / center-end;
     margin: 15rem 0;
 
@@ -7,14 +7,16 @@
     grid-gap: 7rem;
 }
 
-.home {
+.venue {
     background-color: $color-grey-light-1;
+    border-radius: 3px;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 35px;
 
     &__img {
+        border-radius: 3px 3px 0 0;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
         width: 100%;
@@ -31,10 +33,14 @@
         width: 2.5rem;
         z-index: 2;
     }
+    &__like:hover {
+        cursor: pointer;
+    }
 
     &__name {
         align-self: end;
         background-color: $color-secondary;
+        border-radius: 3px;
         color: #ffffff;
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -49,11 +55,11 @@
         z-index: 2;
     }
 
-    &__location, &__rooms {
+    &__location, &__guests {
         margin-top: 2.5rem;
     }
 
-    &__location, &__rooms, &__area, &__price {
+    &__location, &__guests, &__season, &__price {
         font-size: 1.5rem;
         margin-left: 2rem;
 
@@ -68,7 +74,14 @@
         }
     }
 
+    &__icon {
+        height: 2rem;
+        margin-right: 1rem;
+        width: 2rem;
+    }
+
     &__btn {
         grid-column: 1 / -1;
+        border-radius: 0 0 3px 3px;
     }
 }
