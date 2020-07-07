@@ -1,7 +1,7 @@
 # Wedding Planner Landing Page
 
 Fully responsive landing page for a fictional Wedding Planner agency built with CSS Grid, Flexbox and pure JavaScript.
-View the full project [here](https://nadinejuraschek.github.io/wedding-planner-website/).
+View the full project [here](https://nadinejuraschek.github.io/Wedding-Planner-Website/).
 
 ## Technology
 * CSS Grid
